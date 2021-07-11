@@ -1,0 +1,1 @@
+python main_supcon.py --batch_size 128 --learning_rate 0.5 --temp 0.1 --cosine --dataset path --data_folder dataset/Deepfakes/train/ --mean "(0.4914, 0.4822, 0.4465)" --std "(0.2675, 0.2565, 0.2761)"  --method SimCLR --epochs 1
